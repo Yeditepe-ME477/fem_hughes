@@ -30,3 +30,40 @@
 *.exe
 *.out
 *.app
+
+# ---- Build outputs -------------------------------------------------
+/obj/
+/bin/
+*.pdb
+*.ilk
+*.exp
+
+# ---- Generated / compatibility shims (do NOT commit) --------------
+# If you generate GETTIM_COMPAT.FOR locally, ignore it.
+# If you commit it (recommended — see §3), remove the next line.
+# /SOURCE/GETTIM_COMPAT.FOR
+
+# ---- Original MSVC project (kept in repo intentionally) ----------
+# The old .dsp is kept for historical reference — do not ignore it.
+# dlearn.dsp
+
+# ---- Editor / IDE --------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ---- Local run outputs --------------------------------------------
+/input.dat
+/output.dat
+/*.out
+/*.log
+/case*/
+/runs/
+
+# ---- Python / misc (if you script around it) ----------------------
+__pycache__/
+*.pyc
